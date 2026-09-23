@@ -56,7 +56,7 @@ O que aparece aqui pode mudar de ordem. Se algo que você precisa não está na 
 
 **Achou um bug?** [Abra um relato aqui](https://github.com/Maycotkp/tomo-apk/issues/new/choose). É um formulário curto, em português, e precisa de uma conta gratuita no GitHub. Não precisa ser técnico, basta contar o que tentou fazer, o que aconteceu, o que esperava e o modelo do celular. Uma captura de tela ajuda muito. Este espaço é público, então não escreva dados pessoais.
 
-**Tem uma ideia ou sugestão?** Mande para o Maycon, por mensagem, enquanto o formulário de sugestões não fica pronto.
+**Tem uma ideia ou sugestão?** [Preencha o formulário de sugestões](https://forms.gle/bqoq7CkQy2rzcZbeA). Não precisa de conta nem de login, e só o Maycon vê as respostas.
 
 Perguntas que ajudam muito:
 - Foi fácil cadastrar um mob no meio de uma sessão?
