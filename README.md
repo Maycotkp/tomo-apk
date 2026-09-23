@@ -1,37 +1,83 @@
-# Tomo — versão de teste (Android)
+# Tomo
 
-Aplicativo para o mestre de RPG cadastrar e consultar mobs durante a sessão, com vida, modo horda e favoritos. Esta é uma **versão de teste (0.0.1)**, só para Android.
+**O caderno de monstros do mestre de RPG, no celular.** Cadastre seus mobs uma vez e consulte tudo na mesa em segundos: vida, ataques, habilidades e anotações, sem virar página.
+
+> Versão de teste **0.0.1**, só para Android. Estamos construindo o Tomo aos poucos e a sua opinião muda o que vem depois.
 
 ## Baixar
 
-**[Baixar o APK mais recente](https://github.com/Maycotkp/tomo-apk/releases/download/ultimo/tomo.apk)**
+### [Baixar o APK mais recente](https://github.com/Maycotkp/tomo-apk/releases/download/ultimo/tomo.apk)
 
-Este link é sempre o mesmo: a cada versão nova, o arquivo por trás dele é trocado. As novidades de cada versão ficam na [página da versão](https://github.com/Maycotkp/tomo-apk/releases/tag/ultimo).
+Este link é sempre o mesmo. A cada versão nova, o arquivo por trás dele é trocado, então você não precisa procurar nada de novo. As novidades de cada versão estão na [página da versão](https://github.com/Maycotkp/tomo-apk/releases/tag/ultimo).
 
-## Como instalar
+**Como instalar**
 
-1. Baixe o arquivo `tomo.apk` no celular Android.
-2. Toque no arquivo baixado e autorize "instalar de fontes desconhecidas" para este arquivo.
+1. Baixe o `tomo.apk` no celular Android.
+2. Toque no arquivo e autorize "instalar de fontes desconhecidas" para este arquivo.
 3. O Play Protect pode avisar que o app não é reconhecido. É esperado, porque é uma versão de teste.
-4. Se já tinha uma versão instalada, instale por cima. Seus dados ficam.
+4. Se já tinha o Tomo instalado, instale por cima.
 
-## O que dá para testar
+## Para quem é
 
-- Criar, editar e excluir mesas.
-- Criar mobs completos (defesas, vida, ataques com dano e efeitos, habilidades, informações do mestre).
-- Ficha do mob com botões de vida (-10, -1, +1, +10) e restaurar.
-- Modo horda: vários indivíduos numa ficha só, com barra de vida para cada um e dano em área.
-- Buscar mobs e filtrar por favorito e nível.
+Para o mestre que já perdeu a conta de quanta vida sobrou em cada goblin, ou que precisou parar a sessão para achar a ficha de um monstro. No Tomo, cada mob tem uma ficha pronta, feita para consultar rápido no meio do jogo.
 
-Ainda não tem: imagem do mob, exportar e importar, áudio.
+## O que já funciona
+
+| Recurso | O que faz |
+|---|---|
+| **Mesas** | Uma mesa para cada campanha, com nome, descrição e um ícone à sua escolha. |
+| **Mobs** | Cadastro completo: comum, elite ou chefe, descrição, defesas e atributos (valor fixo ou dado), vida, ataques e habilidades. |
+| **Ataques** | Ataque de dado ou teste de dificuldade, com vários danos (1d6, 2d8+5...) e efeitos. |
+| **Ficha** | Tudo do mob numa tela só. Ataques e habilidades abrem ao toque. Espaço para anotações que só o mestre vê. |
+| **Vida** | Botões -10, -1, +1 e +10, e restaurar. A vida nunca passa do máximo nem fica abaixo de zero. |
+| **Modo horda** | Um grupo de mobs iguais numa ficha só, com uma barra de vida para cada um, dano em área ("tirar 5 de todos") e quantidade ajustável. Qualquer mob pode virar horda. |
+| **Favoritos e busca** | Marque os mobs que mais usa, busque pelo nome e filtre por nível. |
+| **Sem conta, sem internet** | Tudo fica salvo no seu celular. Nada é enviado para lugar nenhum. |
+
+O visual é pixel art, com tema escuro e claro (acompanha o seu celular).
+
+## O que vem a seguir
+
+**Próximas versões de teste**
+- Imagem para cada mob, direto da galeria do celular.
+- Exportar e importar as suas mesas em um arquivo, para guardar e passar para outro aparelho.
+
+**Logo depois**
+- Duplicar um mob e copiar para outra mesa.
+- Modo exibição, para mostrar a ficha aos jogadores sem revelar as anotações do mestre.
+- Áudio nos mobs, exportação mais completa, importação em lote e categorias.
+
+**Mais adiante**
+- NPCs, e outras ferramentas pensadas para a mesa. O caminho é decidido com o feedback de quem testa.
+
+O que aparece aqui pode mudar de ordem. Se algo que você precisa não está na lista, conta para a gente.
 
 ## Como dar feedback
 
-Mande para o Maycon, por mensagem:
-- o que você tentou fazer;
-- o que aconteceu e o que esperava que acontecesse;
-- uma captura de tela, se puder;
-- o modelo do celular.
+Mande para o Maycon, por mensagem. Não precisa ser técnico, basta contar:
+
+1. O que você tentou fazer.
+2. O que aconteceu e o que esperava que acontecesse.
+3. Uma captura de tela, se puder.
+4. O modelo do celular.
+
+Perguntas que ajudam muito:
+- Foi fácil cadastrar um mob no meio de uma sessão?
+- Que informação você sentiu falta na ficha?
+- Algo travou, confundiu ou ficou difícil de achar?
+- O que você gostaria que o Tomo fizesse e ainda não faz?
+
+## Perguntas frequentes
+
+**Precisa de internet?** Não. O Tomo funciona todo offline.
+
+**Meus dados vão para algum lugar?** Não. Ficam só no seu celular. Por isso, se desinstalar o app, as mesas somem.
+
+**Funciona no iPhone?** Ainda não. Por enquanto é só Android. O Windows está nos planos.
+
+**Posso perder meus dados ao atualizar?** Instalar por cima mantém seus dados. Mas é uma versão de teste, e em alguma atualização pode ser preciso recomeçar. Avisamos na página da versão quando isso acontecer.
+
+**É de graça?** A versão de teste é gratuita.
 
 ## Aviso
 
