@@ -1,0 +1,57 @@
+name: Relatar um bug
+description: Algo travou, ficou errado ou não funcionou como você esperava.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por testar o Tomo! Quanto mais você contar, mais rápido o Maycon acha o problema.
+        Este espaço é **público**: não escreva dados pessoais, senhas nem nada que não queira que outras pessoas vejam.
+  - type: textarea
+    id: tentou
+    attributes:
+      label: O que você tentou fazer?
+      description: Em qual tela você estava e o que queria fazer.
+      placeholder: "Ex.: Na ficha de um mob, toquei em +10 para curar."
+    validations:
+      required: true
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu?
+      placeholder: "Ex.: O número da vida não mudou."
+    validations:
+      required: true
+  - type: textarea
+    id: esperava
+    attributes:
+      label: O que você esperava que acontecesse?
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como repetir o problema?
+      description: Se souber, liste os passos. Se aconteceu uma vez só, pode dizer isso.
+      placeholder: |
+        1. Abrir a mesa...
+        2. Tocar em ...
+  - type: input
+    id: celular
+    attributes:
+      label: Modelo do celular e versão do Android
+      placeholder: "Ex.: Samsung Galaxy A54, Android 14"
+    validations:
+      required: true
+  - type: input
+    id: baixou
+    attributes:
+      label: Quando você baixou o APK?
+      description: Um dia aproximado ajuda a saber qual versão você está usando.
+      placeholder: "Ex.: ontem, 23/09"
+  - type: textarea
+    id: captura
+    attributes:
+      label: Captura de tela
+      description: Se puder, arraste a imagem para cá.

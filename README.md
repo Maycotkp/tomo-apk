@@ -54,12 +54,9 @@ O que aparece aqui pode mudar de ordem. Se algo que você precisa não está na 
 
 ## Como dar feedback
 
-Mande para o Maycon, por mensagem. Não precisa ser técnico, basta contar:
+**Achou um bug?** [Abra um relato aqui](https://github.com/Maycotkp/tomo-apk/issues/new/choose). É um formulário curto, em português, e precisa de uma conta gratuita no GitHub. Não precisa ser técnico, basta contar o que tentou fazer, o que aconteceu, o que esperava e o modelo do celular. Uma captura de tela ajuda muito. Este espaço é público, então não escreva dados pessoais.
 
-1. O que você tentou fazer.
-2. O que aconteceu e o que esperava que acontecesse.
-3. Uma captura de tela, se puder.
-4. O modelo do celular.
+**Tem uma ideia ou sugestão?** Mande para o Maycon, por mensagem, enquanto o formulário de sugestões não fica pronto.
 
 Perguntas que ajudam muito:
 - Foi fácil cadastrar um mob no meio de uma sessão?
