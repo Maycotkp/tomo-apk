@@ -1,8 +1,10 @@
 # Tomo
 
-**O caderno de monstros do mestre de RPG, no celular.** Cadastre seus mobs uma vez e consulte tudo na mesa em segundos: vida, ataques, habilidades e anotações, sem virar página.
+**Um sistema de suporte para o mestre de RPG**, para mesas presenciais e mesas no Discord, para quem não quer usar um VTT. Cadastre seus mobs uma vez e consulte tudo na mesa em segundos: vida, ataques, habilidades e anotações, sem virar página.
 
-> Versão de teste **0.0.1**, só para Android. Estamos construindo o Tomo aos poucos e a sua opinião muda o que vem depois.
+> Versão **bem inicial, ainda antes da alfa** (0.0.1, de teste), **só para Android por enquanto**, porque é um arquivo APK. Estamos construindo o Tomo aos poucos e a sua opinião muda o que vem depois.
+
+**[Ver a lista completa do que já tem e do que vem por aí](FUNCIONALIDADES.md)**
 
 ## Baixar
 
@@ -19,7 +21,7 @@ Este link é sempre o mesmo. A cada versão nova, o arquivo por trás dele é tr
 
 ## Para quem é
 
-Para o mestre que já perdeu a conta de quanta vida sobrou em cada goblin, ou que precisou parar a sessão para achar a ficha de um monstro. No Tomo, cada mob tem uma ficha pronta, feita para consultar rápido no meio do jogo.
+Para o mestre que joga **presencialmente ou pelo Discord** e não quer montar uma mesa num VTT. Para quem já perdeu a conta de quanta vida sobrou em cada goblin, ou precisou parar a sessão para achar a ficha de um monstro. No Tomo, cada mob tem uma ficha pronta, feita para consultar rápido no meio do jogo.
 
 ## O que já funciona
 
@@ -48,9 +50,9 @@ O visual é pixel art, com tema escuro e claro (acompanha o seu celular).
 - Áudio nos mobs, exportação mais completa, importação em lote e categorias.
 
 **Mais adiante**
-- NPCs, e outras ferramentas pensadas para a mesa. O caminho é decidido com o feedback de quem testa.
+- NPCs, integração com o Discord e outras ferramentas pensadas para a mesa. O caminho é decidido com o feedback de quem testa.
 
-O que aparece aqui pode mudar de ordem. Se algo que você precisa não está na lista, conta para a gente.
+Tudo, versão por versão, está em [**FUNCIONALIDADES.md**](FUNCIONALIDADES.md). O que aparece lá pode mudar de ordem. Se algo que você precisa não está na lista, conta para a gente.
 
 ## Como dar feedback
 
@@ -70,7 +72,7 @@ Perguntas que ajudam muito:
 
 **Meus dados vão para algum lugar?** Não. Ficam só no seu celular. Por isso, se desinstalar o app, as mesas somem.
 
-**Funciona no iPhone?** Ainda não. Por enquanto é só Android. O Windows está nos planos.
+**Funciona no iPhone?** Ainda não. Por enquanto é só Android, porque o arquivo é um APK, que é o formato do Android. O Windows está nos planos; o iPhone não está nos planos por enquanto.
 
 **Posso perder meus dados ao atualizar?** Instalar por cima mantém seus dados. Mas é uma versão de teste, e em alguma atualização pode ser preciso recomeçar. Avisamos na página da versão quando isso acontecer.
 
