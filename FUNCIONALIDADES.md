@@ -37,11 +37,12 @@ O Tomo é um **sistema de suporte para o mestre de RPG**, feito para **mesas pre
 - ✅ **Sem conta e sem internet**: tudo fica salvo no seu celular.
 - ✅ **Visual pixel art** (8 bits) com tema escuro e claro, que acompanha o celular.
 - 🧪 **Ícone ou imagem em cada mob**: 20 ícones de mob para escolher, ou uma foto da galeria. A foto é reduzida e guardada só no seu celular, e, se ela sumir, o mob mostra o ícone com um aviso e o botão de reenviar.
+- 🧪 **Backup**: exportar todas as mesas (ou só uma) em um arquivo JSON e importar de volta, com resumo antes de gravar. Nada do que você já tem é apagado, e uma mesa com o mesmo nome entra como cópia. As imagens ficam só no celular e não vão no arquivo.
+- 🧪 **Configurações**: escolher o tema (claro, escuro ou automático).
 
 ## O que falta para fechar a 0.0.1
 
-- 🔜 **Exportar e importar** as suas mesas em um arquivo (backup simples, sem imagens).
-- 🔜 **Configurações**: escolher o tema (claro, escuro ou automático).
+- 🔜 Testes finais e ajustes, com a ajuda de quem está testando.
 
 ---
 
