@@ -24,7 +24,7 @@ O Tomo é um **sistema de suporte para o mestre de RPG**, feito para **mesas pre
 
 ---
 
-## O que já tem (versão 0.0.1, de teste)
+## O que já tem (versão 0.0.1 e o começo da 0.0.2, de teste)
 
 - ✅ **Mesas**: uma para cada campanha, com nome, descrição e um ícone pixel art à sua escolha.
 - ✅ **Mobs completos**: comum, elite ou chefe, com descrição, defesas e atributos (valor fixo ou dado).
@@ -33,12 +33,15 @@ O Tomo é um **sistema de suporte para o mestre de RPG**, feito para **mesas pre
 - ✅ **Ficha do mob** com tudo numa tela só.
 - ✅ **Vida com barra** e botões -10, -1, +1 e +10, mais restaurar.
 - ✅ **Modo horda**: vários mobs iguais numa ficha só, com uma barra de vida para cada um e dano em área.
-- ✅ **Favoritos, busca por nome e filtro** por nível.
+- ✅ **Favoritos, busca por nome e filtro** por nível. A lista continua rápida mesmo com centenas de mobs.
+- ✅ **Ícone ou imagem em cada mob**: 20 ícones de mob para escolher, ou uma foto da galeria. A foto é reduzida e guardada só no seu celular, e, se ela sumir, o mob mostra o ícone com um aviso e o botão de reenviar.
+- ✅ **Duplicar um mob**: cria uma cópia com tudo, com a vida cheia.
+- ✅ **Modo exibição**: mostra a imagem do mob em tela cheia para os jogadores, sem revelar a vida, os ataques nem as anotações do mestre.
+- ✅ **Backup**: exportar todas as mesas (ou só uma) em um arquivo JSON e importar de volta, com resumo antes de gravar. Nada do que você já tem é apagado, e uma mesa com o mesmo nome entra como cópia. As imagens ficam só no celular e não vão no arquivo.
+- ✅ **Lembrete de backup**: depois de 3 dias sem backup, a lista de mesas avisa, e as Configurações mostram o último backup.
+- ✅ **Configurações**: escolher o tema (claro, escuro ou automático).
 - ✅ **Sem conta e sem internet**: tudo fica salvo no seu celular.
 - ✅ **Visual pixel art** (8 bits) com tema escuro e claro, que acompanha o celular.
-- 🧪 **Ícone ou imagem em cada mob**: 20 ícones de mob para escolher, ou uma foto da galeria. A foto é reduzida e guardada só no seu celular, e, se ela sumir, o mob mostra o ícone com um aviso e o botão de reenviar.
-- 🧪 **Backup**: exportar todas as mesas (ou só uma) em um arquivo JSON e importar de volta, com resumo antes de gravar. Nada do que você já tem é apagado, e uma mesa com o mesmo nome entra como cópia. As imagens ficam só no celular e não vão no arquivo.
-- 🧪 **Configurações**: escolher o tema (claro, escuro ou automático).
 
 ## O que falta para fechar a 0.0.1
 
@@ -48,19 +51,20 @@ O Tomo é um **sistema de suporte para o mestre de RPG**, feito para **mesas pre
 
 ## O que vem depois
 
-### 0.0.2: conforto e backup
-- 🔜 Duplicar um mob e **copiar para outra mesa**.
+### 0.0.2: conforto e backup (o que falta)
+- 🔜 **Copiar um mob para outra mesa**.
 - 🔜 **Categorias** criadas por você.
 - 🔜 **Áudio** nos mobs.
-- 🔜 **Modo exibição**: mostrar a imagem do mob em tela cheia para os jogadores, sem revelar as anotações do mestre.
 - 🔜 Exportar e importar **completo** (Excel ou JSON, com a opção de incluir as imagens).
 - 🔜 Importar várias imagens e áudios de uma vez.
 - 🔜 Ver quais mídias sumiram e quanto espaço elas ocupam.
-- 🔜 **Backup automático**.
 
-### 0.1.0: NPCs e Discord
+O **backup automático** e a **senha do backup** ficam para a 0.5.0, junto com a conta.
+
+### 0.1.0: NPCs, Discord e sistema da mesa
 - 🔜 **NPCs**, junto dos mobs.
-- 🔜 **Rolador de dados**: tocar num ataque e ver o resultado rolar.
+- 🔜 **Sistema da mesa**: ao criar a mesa você escolhe o sistema (no começo, Livre ou D&D 5e), e ele define como o modificador é calculado, como se rola e como funciona a iniciativa. Dá para trocar depois, com um aviso do que se adapta.
+- 🔜 **Rolador de dados**: tocar num ataque ou atributo e ver o resultado rolar.
 - 🔜 **Discord por webhook**: um botão "Mostrar" envia o mob ou o NPC para o canal da sua mesa, sem as anotações do mestre. As rolagens também podem ir para o canal.
 - 🔜 O app continua funcionando sem internet. Só o "Mostrar" precisa de conexão.
 
@@ -68,26 +72,35 @@ O Tomo é um **sistema de suporte para o mestre de RPG**, feito para **mesas pre
 - 🔜 **Locais** em hierarquia (país, região, cidade), com blocos opcionais (topografia, militar, economia e política).
 - 🔜 **Organizações e facções**, inclusive secretas.
 - 🔜 **Vínculos** entre qualquer item (um mob a um mapa, um NPC a uma organização).
-- 🔜 **Sessões**: data, resumo e notas.
+- 🔜 **Sessões**: data, resumo, dados da sessão e planejamento das próximas.
 
 ### 0.3.0: mapas, viagem e eventos
-- 🔜 Mapa com grade hexagonal ou quadrada, com a posição do grupo e territórios.
+- 🔜 **Mapa sobre a sua imagem**, com grade **quadrada ou hexagonal**. Você move, amplia e gira a imagem até encaixar na grade, e define quanto vale cada célula (por exemplo, 5 pés).
+- 🔜 **Zonas** dos reinos pintadas célula a célula, com nome, descrição e uma bandeirola (a capital) com ícone e ligações a organizações, NPCs, cidades e dungeons.
+- 🔜 **Pontos de interesse** com ícone, cor, nome e descrição, que você mostra ou esconde dos jogadores.
+- 🔜 **Grupos** no mapa: mais de um, para dividir e juntar, movidos arrastando o ícone.
+- 🔜 **Régua de distância** e alcance, pela escala do mapa.
+- 🔜 **Mapas dentro de mapas**: o mapa da cidade dentro do mapa do reino, cada um com a sua escala.
+- 🔜 **Viagem** com rota, etapas e o caminho percorrido, e **eventos de viagem** por tabela sua ou por sugestão de IA. Nada entra sem a sua aprovação.
 - 🔜 Visões salvas (política, viagem, terreno) e exportar o mapa em imagem.
-- 🔜 **Viagem** com rota e etapas, e **eventos de viagem** por tabela sua ou por sugestão de IA. Nada entra sem a sua aprovação.
 
 ### 0.4.0: dungeon e combate
 - 🔜 **Dungeon por salas**, com perigos, mobs, conexões e névoa opcional.
 - 🔜 **Mapas de combate** com os mobs posicionados.
-- 🔜 **Iniciativa** e vida durante o combate.
+- 🔜 **Zonas de efeito** (como uma zona de lava com dano), **obstáculos**, **objetos para interagir** (baú, corpo, alavanca) e **armadilhas**, cada um com a cor que você escolher.
+- 🔜 **Iniciativa** e vida durante o combate, com a escolha de qual grupo entra.
 
 ### 0.5.0: conta, nuvem e versão do jogador
 - 🔜 Criar conta, entrar e sair.
+- 🔜 **Backup automático** na nuvem.
+- 🔜 **Senha do backup**, para proteger os seus arquivos de backup.
+- 🔜 **Perfis offline** com senha, para usar sem internet.
 - 🔜 **Convite para a mesa**, com papel de mestre ou jogador.
 - 🔜 **Visibilidade por item**: "só mestre" ou "revelado aos jogadores".
 - 🔜 **Ficha do jogador**.
 
 ### 0.6.0: sistemas de RPG e itens
-- 🔜 Definições de sistema (D&D 5e, Pathfinder 2e, Tormenta20 e Ordem Paranormal), usando só conteúdo de licença aberta.
+- 🔜 Modelos prontos de sistema (a partir do D&D 5e), usando só conteúdo de licença aberta ou o que você mesmo cadastra.
 - 🔜 **Inventário e itens**, **crafting** e **progressão de nível**.
 
 ### 0.7.0: bot do Discord e nuvem de arquivos
