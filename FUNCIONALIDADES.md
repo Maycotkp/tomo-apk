@@ -51,6 +51,11 @@ O Tomo é um **sistema de suporte para o mestre de RPG**, feito para **mesas pre
 
 ## O que vem depois
 
+Em resumo, daqui para a frente:
+- **0.6.0:** inventário, crafting, progressão e sistemas de RPG.
+- **0.7.0:** bot do Discord e nuvem de arquivos.
+- **0.8.0 e 0.9.0:** versão Windows completa, interface em inglês e preparação para a venda.
+
 ### 0.0.2: conforto e backup (o que falta)
 - 🔜 **Copiar um mob para outra mesa**.
 - 🔜 **Categorias** criadas por você.
@@ -109,10 +114,11 @@ O **backup automático** e a **senha do backup** ficam para a 0.5.0, junto com a
 - 🔜 Backup e áudio de sessão no **Google Drive ou OneDrive** da própria pessoa.
 
 ### 0.8.0: Windows
-- 🔜 Versão instalável para Windows, feita a partir do mesmo código do Android.
+- 🔜 Versão instalável para Windows **completa**, feita a partir do mesmo código do Android.
 
 ### 0.9.0 e 1.0.0
-- 🔜 Idiomas (português e inglês) e testes finais.
+- 🔜 **Interface em inglês**: a pessoa escolhe o idioma do app (português ou inglês) nas Configurações.
+- 🔜 Preparação para a venda: planos e testes finais.
 - 🔜 Lançamento oficial, na Play Store.
 
 ---
