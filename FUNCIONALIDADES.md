@@ -117,7 +117,7 @@ O **backup automático** e a **senha do backup** ficam para a 0.5.0, junto com a
 - 🔜 Versão instalável para Windows **completa**, feita a partir do mesmo código do Android.
 
 ### 0.9.0 e 1.0.0
-- 🔜 **Interface em inglês**: a pessoa escolhe o idioma do app (português ou inglês) nas Configurações.
+- 🔜 **Interface em inglês**: o app abre no idioma do celular (português ou inglês) e a pessoa pode trocar nas Configurações.
 - 🔜 Preparação para a venda: planos e testes finais.
 - 🔜 Lançamento oficial, na Play Store.
 
